@@ -1,0 +1,46 @@
+#logo {
+    width: 60px;
+    border-radius: 50%;
+}
+
+header {
+    background-color: #161515fd;
+    padding: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+header nav#navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 0 2rem;
+    height: 100px;
+}
+
+header nav#navbar .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav#navbar ul.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+header nav#navbar ul.nav-list li a{
+    color: rgb(163, 157, 157);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+header nav#navbar ul.nav-list li a:hover{
+    color: white;
+    transition: color 0.3s;
+}
